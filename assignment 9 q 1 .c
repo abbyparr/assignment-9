@@ -8,20 +8,20 @@ for i in numbers :
     if(i % numbers):
         grid.append(number.copy())
         numbers.clear()
-return grid
+return (grid)
     
 else:
 if (numbers != [0:2])
-print('item does not have 3 elements')
+    print('item does not have 3 elements')
 
 if (input != 9)
-print('incorrect: input another input with correct numbers')
+    print('incorrect: input another input with correct numbers')
 
 if(grid != numbers)
-print('grid is not legal. Some values may be illegal, as they are not numbers')
+    print('grid is not legal. Some values may be illegal, as they are not numbers')
 
 x = [number for numbers if numbers.count(number) > 1]
 duplicates = list(set(x))
 
 else(numbers = duplicates)
-print('grid is not legal. It may contain duplicate numbers')
+    print('grid is not legal. It may contain duplicate numbers')
